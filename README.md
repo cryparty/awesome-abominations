@@ -21,4 +21,3 @@ A curated list of abominations
 ### Platforms
 
 - [Bedrock DB - WAN-replicated, Blockchain-based layer built on sqlite by Expensify](https://bedrockdb.com/)
-
