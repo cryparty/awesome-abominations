@@ -1,0 +1,20 @@
+---
+name: Check links in ZSH list
+
+on:
+  # Run daily
+  schedule: [{cron: "0 1 * * *"}]
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker://dkhamsing/awesome_bot:latest
+        with:
+          args: /github/workspace/README.md --allow-timeout --allow 202,429,500,501,502,503,504,509,521,522 --allow-dupe --allow-ssl --request-delay 1 --allow-redirect --white-list https://img.shields.io
