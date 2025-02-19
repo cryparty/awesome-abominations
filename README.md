@@ -9,6 +9,8 @@ A curated list of abominations
 - [SQLite](#sqlite)
   - [Embedding](#embedding)
   - [Platforms](#platforms)
+- [PDF](#pdf)
+  - [Embedding](#embedding-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -21,3 +23,8 @@ A curated list of abominations
 ### Platforms
 
 - [Bedrock DB - WAN-replicated, Blockchain-based layer built on sqlite by Expensify](https://bedrockdb.com/)
+
+## PDF
+### Embedding
+
+- [Linux running in a PDF from an embedded RISC-V emulator](https://github.com/ading2210/linuxpdf)
